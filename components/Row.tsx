@@ -1,6 +1,6 @@
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/solid'
 import { useRef, useState } from 'react'
-import { Movie } from '../typing'
+import { Movie } from '../typings'
 import ThumbNail from './ThumbNail'
 interface Props{
     title: string,
