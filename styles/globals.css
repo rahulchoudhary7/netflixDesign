@@ -23,7 +23,7 @@
             hover:text-[#b3b3b3];
     }
     .bannerButton{
-        @apply flex items-center gap-x-3 rounded px-5 py-0.5 text-sm font-semibold transition 
+        @apply flex items-center gap-x-3 rounded px-3 py-0.5 text-sm font-semibold transition 
         hover:opacity-75 md:px-7 md:text-xl;
     }
 }
