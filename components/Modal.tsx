@@ -47,6 +47,8 @@ function Modal() {
     setShowModal(false);
   };
 
+  console.log(trailer)
+
   return (
     <MuiModal open={showModal} onClose={handleClose} className="fixed !top-7 left-0 right-0 z-50 mx-auto max-w-5xl overflow-hidden overflow-y-scroll rounded-md scrollbar-hide">
       <>
@@ -60,7 +62,7 @@ function Modal() {
 
         <div className="relative pt-[56.25%]">
         <ReactPlayer
-            url={ `https://www.youtube.com/watch?v=${trailer}`}
+            url={ trailer ? "https://www.youtube.com/watch?v="+trailer: "https://www.youtube.com/watch?v=JXTZP9ur0mU" }
             width="100%"
             height="100%"
             style={{ position: 'absolute', top: '0', left: '0' }}
